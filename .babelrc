@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "next/babel",
+    [
+      "linaria/babel",
+      {
+        "ssr": true,
+        "displayName": true,
+        "preprocess": false
+      }
+    ]
+  ]
+}
