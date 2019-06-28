@@ -1,17 +1,20 @@
 import Link from "next/link";
 import Head from "next/head";
-import { Container } from "../components";
+import { Logo, Heading, Container, Description } from "../components";
 
 export default () => (
   <Container>
     <Head>
-      <title>AnnoSuite</title>
+      <title>AnnoSuite - This Winter</title>
     </Head>
     <section>
-      <h1>AnnoSuite</h1>
-      <h2>Coming</h2>
-      <h2>This Winter!</h2>
-      <p>Digital life revolutionized</p>
+      <Logo>AnnoSuite</Logo>
+      <Heading>
+        Coming&nbsp;
+        <br />
+        <span>This Winter.</span>
+      </Heading>
+      <Description>Digital life revolutionized</Description>
     </section>
   </Container>
 );
